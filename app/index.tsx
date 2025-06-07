@@ -1,15 +1,11 @@
 import { Text, View } from "react-native";
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+    return (
+        <View className="text-red-500 flex-1 items-center justify-center bg-red-900r">
+            <Text className="justify-center color-red-600 text-5xl">
+                Hello Rudra
+            </Text>
+        </View>
+    );
 }
