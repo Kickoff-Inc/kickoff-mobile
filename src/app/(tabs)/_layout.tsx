@@ -1,5 +1,6 @@
 import { colors } from "@/src/constants/colors";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
+import AntDesign from "@expo/vector-icons/AntDesign";
+import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { Tabs } from "expo-router";
 import React from "react";
 import { StyleSheet } from "react-native";
@@ -13,11 +14,7 @@ const _Layout = () => {
                     title: "News",
                     headerShown: false,
                     tabBarIcon: ({ color }) => (
-                        <FontAwesome
-                            size={28}
-                            name="newspaper-o"
-                            color={color}
-                        />
+                        <AntDesign name="home" size={24} color={color} />
                     ),
                 }}
             />
@@ -28,7 +25,7 @@ const _Layout = () => {
                     title: "My Feed",
                     headerShown: false,
                     tabBarIcon: ({ color }) => (
-                        <FontAwesome size={28} name="heart-o" color={color} />
+                        <AntDesign name="hearto" size={24} color={color} />
                     ),
                 }}
             />
@@ -39,9 +36,9 @@ const _Layout = () => {
                     title: "Matches",
                     headerShown: false,
                     tabBarIcon: ({ color }) => (
-                        <FontAwesome
-                            size={28}
-                            name="soccer-ball-o"
+                        <MaterialCommunityIcons
+                            name="soccer-field"
+                            size={24}
                             color={color}
                         />
                     ),

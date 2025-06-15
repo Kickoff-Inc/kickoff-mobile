@@ -36,6 +36,22 @@ module.exports = {
                     dark: "#3A3A3C",
                 },
             },
+            fontFamily: {
+                sans: ["Inter", "sans-serif"], // I used Inter as a default font
+                inter: ["Inter", "sans-serif"],
+                body: ["Inter", "sans-serif"],
+            },
+            fontWeight: {
+                thin: "100",
+                extralight: "200",
+                light: "300",
+                normal: "400",
+                medium: "500",
+                semibold: "600",
+                bold: "700",
+                extrabold: "800",
+                black: "900",
+            },
         },
     },
     darkMode: "media",
